@@ -68,7 +68,7 @@
 打开文件之前，需要先运行一遍`flutter build ios`(这将确保xcode能正确检测到ios目录下的文件)
 之后执行`open ios/Runner.xcworkspace/`或者是在example目录下找到ios，然后打开`Runner.xcworkspace`这个文件
 
-按照图片中的路劲打开文件即可
+按照图片中的路径打开文件即可
 
 <img src="images/flutter_plugin_09.png" width="400" />
 
