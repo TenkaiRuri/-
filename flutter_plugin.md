@@ -5,6 +5,7 @@
 在查看本文章之前，先确保你的环境没有问题。通过了`flutter doctor`的检查，如果你还有疑问，或者是想重新看看，可以参考官方的 [运行flutter doctor](https://flutter.dev/docs/get-started/install/macos#run-flutter-doctor)
 
 当我们运行`flutter create -h`会获取到几个比较重要的参数。
+
 |参数|说明|
 |---|---|
 |`-i`|选择IOS开发语言、Objective-C/Swift，默认Objective-C|
