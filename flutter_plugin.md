@@ -77,7 +77,7 @@
 <img src="images/flutter_plugin_10.png" width="400" />
 <img src="images/flutter_plugin_11.png" width="400" />
 
-到这里，你就可以开始编写你的第一个flutter插件了 ，祝大家都可以编写出自己想要实现的插件 🎉🎉🎉
+到这里，你就可以开始编写你的第一个flutter插件了 ，祝大家都可以顺利编写出自己想要实现的插件 🎉🎉🎉
 
 ## Android需要注意的事项
 需要注意`android/build.gradle`文件下minSdkVersion的版本设置
