@@ -20,34 +20,34 @@
 
 运行`flutter create -t plugin -i swift -a kotlin first_plugin`命令，我们将会看到如下文件
 
-<img src="images/flutter_plugin_01.png" width="300" />
+<img src="images/flutter_plugin/flutter_plugin_01.png" width="300" />
 
 ## Android插件编写
 编写 Android 强烈建议使用`Android Studio`我们打开Android Studio。
 
-<img src="images/flutter_plugin_02.png" width="300" />
+<img src="images/flutter_plugin/flutter_plugin_02.png" width="300" />
 
-<img src="images/flutter_plugin_03.png" width="300" />
+<img src="images/flutter_plugin/flutter_plugin_03.png" width="300" />
 
 切换到Android
 
-<img src="images/flutter_plugin_04.png" />
+<img src="images/flutter_plugin/flutter_plugin_04.png" />
 
 如果遇到让你`Setup SDK`选择Android SDK即可
 
-<img src="images/flutter_plugin_05.png" width="500"/>
+<img src="images/flutter_plugin/flutter_plugin_05.png" width="500"/>
 
 如果是Kotlin可能会遇到如下情况
 
-<img src="images/flutter_plugin_06.png" width="800"/>
+<img src="images/flutter_plugin/flutter_plugin_06.png" width="800"/>
 
 点击Configure，选择Java
 
-<img src="images/flutter_plugin_07.png" width="800"/>
+<img src="images/flutter_plugin/flutter_plugin_07.png" width="800"/>
 
 最后这么选 点击ok即可，这时候你的Android编写就是带语法提示的
 
-<img src="images/flutter_plugin_08.png" width="800"/>
+<img src="images/flutter_plugin/flutter_plugin_08.png" width="800"/>
 
 点击▶️这个按钮弹出虚拟机，就可以正式编写插件了
 
@@ -56,7 +56,7 @@
 编写IOS插件 基本上只能使用苹果官方的xcode，其他IDE的支持性没有那么好。
 
 
-<img src="images/flutter_plugin_01.png" width="300" />
+<img src="images/flutter_plugin/flutter_plugin_01.png" width="300" />
 
 
 我们回顾一下这张图，ios的具体代码在ios文件夹里。不过不能从这里直接打开代码文件，否则你将会失去xcode带来的语法提示。
@@ -70,12 +70,12 @@
 
 按照图片中的路径打开文件即可
 
-<img src="images/flutter_plugin_09.png" width="400" />
+<img src="images/flutter_plugin/flutter_plugin_09.png" width="400" />
 
 还有一种快捷的方式，就是直接在搜索中，搜索你Swift文件的类名，然后点击.swift文件即可打开
 
-<img src="images/flutter_plugin_10.png" width="400" />
-<img src="images/flutter_plugin_11.png" width="400" />
+<img src="images/flutter_plugin/flutter_plugin_10.png" width="400" />
+<img src="images/flutter_plugin/flutter_plugin_11.png" width="400" />
 
 到这里，你就可以开始编写你的第一个flutter插件了 ，祝大家都可以顺利编写出自己想要实现的插件 🎉🎉🎉
 
