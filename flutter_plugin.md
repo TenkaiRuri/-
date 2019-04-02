@@ -33,7 +33,7 @@
 
 <img src="images/flutter_plugin_04.png" />
 
-选择Android sdk即可
+如果遇到让你`Setup SDK`选择Android SDK即可
 
 <img src="images/flutter_plugin_05.png" width="500"/>
 
@@ -59,11 +59,13 @@
 <img src="images/flutter_plugin_01.png" width="300" />
 
 
-我们回顾一下这张图，ios的具体代码在ios文件夹里。不过不能从这里直接打开代码文件，否则你将会失去语法提示。
+我们回顾一下这张图，ios的具体代码在ios文件夹里。不过不能从这里直接打开代码文件，否则你将会失去xcode带来的语法提示。
 
-先cd到example目录
+打开`Terminal/cmd`
 
-这时候我们需要先在`Terminal/cmd`里先运行一遍`flutter build ios`(这将确保xcode能正确检测到ios目录下的文件)
+然后先cd到example目录
+
+打开文件之前，需要先运行一遍`flutter build ios`(这将确保xcode能正确检测到ios目录下的文件)
 之后执行`open ios/Runner.xcworkspace/`或者是在example目录下找到ios，然后打开`Runner.xcworkspace`这个文件
 
 按照图片中的路劲打开文件即可
