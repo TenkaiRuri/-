@@ -101,6 +101,8 @@ target 'Runner' do
 end
 ```
 
+`Objective-C`可以无视上述问题
+
 ## 发布
 先使用`flutter packages pub publish --dry-run`预先检查一下项目中有没有要改善的地方
 之后命令`flutter packages pub publish`
