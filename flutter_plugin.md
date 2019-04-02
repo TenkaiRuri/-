@@ -105,7 +105,7 @@ end
 
 ## 发布
 先使用`flutter packages pub publish --dry-run`预先检查一下项目中有没有要改善的地方
-之后命令`flutter packages pub publish`
-点击提示的链接，登录账号。即可提交代码，需要注意的是这里需要注意的是这里需要`全局的互联网`才可以提交，`局域网`无法提交，需要注意一下。
+
+之后用命令`flutter packages pub publish`，会在当前的面板下打印一行链接，把它复制到浏览器中或是点击提示的链接，登录账号。即可提交代码。需要注意的这里需要`全局的互联网`才可以提交，`局域网`无法提交，注意一下。
 
 ***注意！提交后无法撤销，所以尽量整理好一个版本，写好CHANGELOG.md，pubspec.yaml，以及README.md里面给出api或者example，LICENSE等问题之后再做提交***
